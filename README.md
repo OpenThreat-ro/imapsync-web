@@ -1,6 +1,7 @@
 # OpenThreat mail migrator
 
-OpenThreat mail migrator is a simple and intuitive web application for synchronizing email accounts using [imapsync](https://github.com/imapsync/imapsync). It features a modern graphical interface with real-time sync output display, and notifications when the process is complete.
+OpenThreat mail migrator is a web application for synchronizing email accounts using [imapsync](https://github.com/imapsync/imapsync).  
+Created by **[OpenThreat](https://openthreat.ro)** to simplify secure email synchronization. It features a modern graphical interface with real-time sync output display, and notifications when the process is complete.
 
 ---
 
@@ -58,6 +59,13 @@ Open your browser and go to: http://localhost:3000
 Source Host/Destination Host: Enter the IMAP server address for the source and destination accounts.
 Source User/Destination User: Enter the email addresses or usernames for the source and destination accounts.
 Source Password/Destination Password: Enter the respective passwords for authentication.
+
+---
+
+## 🌐 About OpenThreat
+
+This project is brought to you by **[OpenThreat](https://openthreat.ro)**.  
+Visit our website for more security and infrastructure solutions and services!
 
 ---
 
