@@ -14,7 +14,7 @@ OpenThreat mail migrator is a simple and intuitive web application for synchroni
 
 ---
 
-## 🛠️ ependencies
+## 🛠️ Dependencies
 
 - **Docker**: The application runs in a Docker container based on Ubuntu 24.04.
 - **Node.js**: Used for the backend.
