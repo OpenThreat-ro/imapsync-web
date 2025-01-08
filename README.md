@@ -1,7 +1,7 @@
-# OpenThreat mail migrator
+# OpenThreat Mail Migrator
 
-OpenThreat mail migrator is a web application for synchronizing email accounts using [imapsync](https://github.com/imapsync/imapsync).  
-Created by **[OpenThreat](https://openthreat.ro)** to simplify secure email synchronization. It features a modern graphical interface with real-time sync output display, and notifications when the process is complete.
+OpenThreat Mail Migrator is a web application for synchronizing email accounts using [imapsync](https://github.com/imapsync/imapsync).  
+Created by **[OpenThreat](https://openthreat.ro)** to simplify secure email synchronization. It features a modern graphical interface with real-time sync output display and notifications when the process is complete.
 
 ---
 
@@ -25,32 +25,50 @@ Created by **[OpenThreat](https://openthreat.ro)** to simplify secure email sync
 
 ---
 
-🖥️ Installation and Usage
+## 🖥️ Installation and Usage
+
+You can use the pre-built Docker image from Docker Hub or build the image locally.
+
+### Option 1: Use the Pre-built Docker Image
+
+1. Pull the Docker image from Docker Hub:
+
+   ```bash
+   docker pull razvan1/imapsync-web
+   ```
+
+2. Run the container:
+   ```bash
+   docker run -p 3000:3000 razvan1/imapsync-web
+   ```
+3. Access the web interface:
+   Open your browser and go to: `http://localhost:3000`
+
+---
+
+### Option 2: Build the Docker Image Locally
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/OpenThreat-ro/imapsync-web.git
-cd imapsync-web
-```
+   ```bash
+   git clone https://github.com/OpenThreat-ro/imapsync-web.git
+   cd imapsync-web
+   ```
 
 2. Build the Docker image:
 
-```bash
-docker build -t openthreat-imapsync .
-```
+   ```bash
+   docker build -t openthreat-imapsync .
+   ```
 
 3. Run the container:
 
-```bash
-docker run -p 3000:3000 openthreat-imapsync
-```
+   ```bash
+   docker run -p 3000:3000 openthreat-imapsync
+   ```
 
 4. Access the web interface:
-
-```
-Open your browser and go to: http://localhost:3000
-```
+    Open your browser and go to: `http://localhost:3000`
 
 ---
 
